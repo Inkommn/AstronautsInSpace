@@ -40,7 +40,7 @@
 		1DCF5AD12A5FFF570074EBCB = {
 			isa = PBXGroup;
 			children = (
-				1DCF5ADC2A5FFF570074EBCB /* NetworkingHW */,
+				1DCF5ADC2A5FFF570074EBCB /* Astronauts in space */,
 				1DCF5ADB2A5FFF570074EBCB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1DCF5ADC2A5FFF570074EBCB /* NetworkingHW */ = {
+		1DCF5ADC2A5FFF570074EBCB /* Astronauts in space */ = {
 			isa = PBXGroup;
 			children = (
 				1DCF5AF12A5FFF8E0074EBCB /* ViewControllers */,
@@ -61,7 +61,7 @@
 				1DCF5AF32A5FFFC80074EBCB /* App */,
 				1DCF5AF22A5FFF9B0074EBCB /* Storyboard */,
 			);
-			path = NetworkingHW;
+			path = "Astronauts in space";
 			sourceTree = "<group>";
 		};
 		1DCF5AF12A5FFF8E0074EBCB /* ViewControllers */ = {
@@ -134,7 +134,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1DCF5AD52A5FFF570074EBCB /* Build configuration list for PBXProject "NetworkingHW" */;
+			buildConfigurationList = 1DCF5AD52A5FFF570074EBCB /* Build configuration list for PBXProject "Astronauts in space" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -379,7 +379,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DCF5AD52A5FFF570074EBCB /* Build configuration list for PBXProject "NetworkingHW" */ = {
+		1DCF5AD52A5FFF570074EBCB /* Build configuration list for PBXProject "Astronauts in space" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DCF5AEC2A5FFF570074EBCB /* Debug */,

@@ -1,6 +1,6 @@
 //
 //  MainViewController.swift
-//  NetworkingHW
+//  Astronauts in space
 //
 //  Created by Shamkhan Mutuskhanov on 13.07.2023.
 //
@@ -25,7 +25,7 @@ final class MainViewController: UIViewController {
     }
     
     func getPeopleInSpace() {
-        guard let url = URL(string: "http://api.open-notify.org/astros.json" ) else { return }
+        guard let url = URL(string: "http://api.open-notify.org/astros.json") else { return }
         
         URLSession.shared.dataTask(with: url) { data, _, error in
             guard let data = data else {

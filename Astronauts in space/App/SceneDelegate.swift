@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  NetworkingHW
+//  Astronauts in space
 //
 //  Created by Shamkhan Mutuskhanov on 13.07.2023.
 //
