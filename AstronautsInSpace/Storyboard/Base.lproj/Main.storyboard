@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4SR-1A-LET">
+    <device id="retina4_0" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--People in space-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="PeopleInSpaceViewController" customModule="AstronautsInSpace" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="astronaut" translatesAutoresizingMaskIntoConstraints="NO" id="BGU-aF-uah">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLB-4X-0ek">
+                                <rect key="frame" x="70.5" y="468" width="179" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Ea2-Ir-R8w"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Light" family="Kohinoor Bangla" pointSize="30"/>
+                                <color key="tintColor" red="0.14594021439552307" green="0.30404359102249146" blue="0.93501555919647217" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title=" Astronauts">
+                                    <imageReference key="image" image="arrow.forward" catalog="system" symbolScale="large" variableValue="1"/>
+                                </state>
+                                <connections>
+                                    <segue destination="efS-Qd-4eJ" kind="show" id="9QA-Se-tHa"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="aZb-fZ-LWZ">
+                                <rect key="frame" x="150" y="98" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="267-03-8nE">
+                                <rect key="frame" x="135.5" y="82" width="49.5" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="hnW-At-R0N"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Light" family="Kohinoor Bangla" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="aLB-4X-0ek" firstAttribute="centerX" secondItem="267-03-8nE" secondAttribute="centerX" id="56e-Ih-74X"/>
+                            <constraint firstItem="BGU-aF-uah" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Cfu-0w-5Ez"/>
+                            <constraint firstAttribute="bottom" secondItem="BGU-aF-uah" secondAttribute="bottom" id="JuF-Wj-6n5"/>
+                            <constraint firstItem="267-03-8nE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-16" id="MvW-43-f4W"/>
+                            <constraint firstItem="aLB-4X-0ek" firstAttribute="centerX" secondItem="aZb-fZ-LWZ" secondAttribute="centerX" id="Ren-k3-KjY"/>
+                            <constraint firstItem="aLB-4X-0ek" firstAttribute="width" relation="greaterThanOrEqual" secondItem="BGU-aF-uah" secondAttribute="width" multiplier="0.559375" id="TdW-Kl-GgB" userLabel="Astronauts.width ≥ 0.559375 × astronaut.width"/>
+                            <constraint firstItem="aLB-4X-0ek" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WBE-m9-4wV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aLB-4X-0ek" secondAttribute="bottom" constant="40" id="WTc-Vr-bH4"/>
+                            <constraint firstItem="BGU-aF-uah" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="bYX-hl-58c"/>
+                            <constraint firstItem="aZb-fZ-LWZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="eTg-VI-OmI"/>
+                            <constraint firstItem="BGU-aF-uah" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wA4-1l-46K"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="People in space" prompt=" " id="p1L-mU-wF1"/>
+                    <connections>
+                        <outlet property="astronautsLabel" destination="267-03-8nE" id="nci-9E-zUo"/>
+                        <outlet property="peopleInSpaceIndicator" destination="aZb-fZ-LWZ" id="oEn-mM-65l"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-593.02325581395348" y="-85.622317596566532"/>
+        </scene>
+        <!--Astronauts-->
+        <scene sceneID="fuG-o2-gaN">
+            <objects>
+                <tableViewController id="efS-Qd-4eJ" customClass="AstronautsTableViewController" customModule="AstronautsInSpace" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="WMP-uq-gMj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="150" id="WOw-hT-psf" customClass="AstronautsCustomTableView" customModule="AstronautsInSpace" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="50" width="320" height="150"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WOw-hT-psf" id="cXD-bU-sdr">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="7TV-7i-Y31">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="159"/>
+                                        </imageView>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ISS" id="bbJ-Qd-jcG">
+                                            <rect key="frame" x="8" y="25" width="100" height="100"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ZmH-f7-bYZ">
+                                            <rect key="frame" x="113" y="20" width="187" height="110"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kayla Barron" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Rvx-YP-jGN">
+                                                    <rect key="frame" x="0.0" y="0.0" width="187" height="84"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="KohinoorBangla-Light" family="Kohinoor Bangla" pointSize="25"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="International Space Station" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oaY-qM-dV5">
+                                                    <rect key="frame" x="0.0" y="89" width="187" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="KohinoorBangla-Light" family="Kohinoor Bangla" pointSize="15"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                    <constraints>
+                                        <constraint firstItem="7TV-7i-Y31" firstAttribute="leading" secondItem="bbJ-Qd-jcG" secondAttribute="trailing" constant="-108" id="1MV-Zd-uVo"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="7TV-7i-Y31" secondAttribute="bottom" constant="-20" id="3Oh-Lm-b0o"/>
+                                        <constraint firstItem="7TV-7i-Y31" firstAttribute="top" secondItem="cXD-bU-sdr" secondAttribute="top" id="DBF-Ls-kYv"/>
+                                        <constraint firstAttribute="trailing" secondItem="7TV-7i-Y31" secondAttribute="trailing" id="MAl-h1-1Ce"/>
+                                        <constraint firstItem="ZmH-f7-bYZ" firstAttribute="centerY" secondItem="bbJ-Qd-jcG" secondAttribute="centerY" id="e2n-br-N1x"/>
+                                        <constraint firstAttribute="trailing" secondItem="ZmH-f7-bYZ" secondAttribute="trailing" constant="20" symbolic="YES" id="r2w-UP-upG"/>
+                                        <constraint firstItem="ZmH-f7-bYZ" firstAttribute="leading" secondItem="bbJ-Qd-jcG" secondAttribute="trailing" constant="5" id="xul-SM-jlz"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="astronautCraftLabel" destination="oaY-qM-dV5" id="yw8-vp-hV7"/>
+                                    <outlet property="astronautNameLabel" destination="Rvx-YP-jGN" id="Qgr-cN-dQK"/>
+                                    <outlet property="spaceStationLogo" destination="bbJ-Qd-jcG" id="pvA-Tu-up0"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="efS-Qd-4eJ" id="Rdv-2d-thj"/>
+                            <outlet property="delegate" destination="efS-Qd-4eJ" id="M1X-kA-MPK"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Astronauts" id="6GC-gu-kb3"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nwn-Nd-uNP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="204.61538461538461" y="-85.308056872037909"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="KhW-SV-YOX">
+            <objects>
+                <navigationController id="4SR-1A-LET" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="center" id="3Ec-BB-4SQ">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="25"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="mFQ-3A-ifF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rBH-Mh-shZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1408" y="-85"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ISS" width="800" height="989.810791015625"/>
+        <image name="arrow.forward" catalog="system" width="128" height="95"/>
+        <image name="astronaut" width="719" height="1280"/>
+        <image name="background" width="1920" height="1080"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

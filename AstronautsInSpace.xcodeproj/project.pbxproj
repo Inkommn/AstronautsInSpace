@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D12F4EE2A6573E800550CF9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D12F4ED2A6573E800550CF9 /* NetworkManager.swift */; };
+		1D1E5CB92A6574D1002A892B /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E5CB82A6574D1002A892B /* Astronaut.swift */; };
+		1D6C4FEE2A6671CC0084376C /* AstronautsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6C4FED2A6671CC0084376C /* AstronautsTableViewController.swift */; };
+		1D6C4FF12A6697A80084376C /* AstronautsCustomTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6C4FF02A6697A80084376C /* AstronautsCustomTableView.swift */; };
 		1DCF5ADE2A5FFF570074EBCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF5ADD2A5FFF570074EBCB /* AppDelegate.swift */; };
 		1DCF5AE02A5FFF570074EBCB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF5ADF2A5FFF570074EBCB /* SceneDelegate.swift */; };
-		1DCF5AE22A5FFF570074EBCB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF5AE12A5FFF570074EBCB /* MainViewController.swift */; };
+		1DCF5AE22A5FFF570074EBCB /* PeopleInSpaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF5AE12A5FFF570074EBCB /* PeopleInSpaceViewController.swift */; };
 		1DCF5AE52A5FFF570074EBCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DCF5AE32A5FFF570074EBCB /* Main.storyboard */; };
-		1DCF5AE72A5FFF570074EBCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DCF5AE62A5FFF570074EBCB /* Assets.xcassets */; };
 		1DCF5AEA2A5FFF570074EBCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DCF5AE82A5FFF570074EBCB /* LaunchScreen.storyboard */; };
+		1DE1F9652A66AF220094AB58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE1F9642A66AF220094AB58 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1DCF5ADA2A5FFF570074EBCB /* NetworkingHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkingHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D12F4ED2A6573E800550CF9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1D1E5CB82A6574D1002A892B /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		1D6C4FED2A6671CC0084376C /* AstronautsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautsTableViewController.swift; sourceTree = "<group>"; };
+		1D6C4FF02A6697A80084376C /* AstronautsCustomTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautsCustomTableView.swift; sourceTree = "<group>"; };
+		1DCF5ADA2A5FFF570074EBCB /* AstronautsInSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstronautsInSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DCF5ADD2A5FFF570074EBCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DCF5ADF2A5FFF570074EBCB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1DCF5AE12A5FFF570074EBCB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1DCF5AE12A5FFF570074EBCB /* PeopleInSpaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleInSpaceViewController.swift; sourceTree = "<group>"; };
 		1DCF5AE42A5FFF570074EBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1DCF5AE62A5FFF570074EBCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DCF5AE92A5FFF570074EBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DCF5AEB2A5FFF570074EBCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DE1F9642A66AF220094AB58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,10 +45,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D12F4EB2A6573CF00550CF9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1D12F4ED2A6573E800550CF9 /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1D12F4EC2A6573D900550CF9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D1E5CB82A6574D1002A892B /* Astronaut.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1D6C4FEF2A66976B0084376C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D6C4FF02A6697A80084376C /* AstronautsCustomTableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		1DCF5AD12A5FFF570074EBCB = {
 			isa = PBXGroup;
 			children = (
-				1DCF5ADC2A5FFF570074EBCB /* Astronauts in space */,
+				1DCF5ADC2A5FFF570074EBCB /* AstronautsInSpace */,
 				1DCF5ADB2A5FFF570074EBCB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,26 +80,30 @@
 		1DCF5ADB2A5FFF570074EBCB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1DCF5ADA2A5FFF570074EBCB /* NetworkingHW.app */,
+				1DCF5ADA2A5FFF570074EBCB /* AstronautsInSpace.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1DCF5ADC2A5FFF570074EBCB /* Astronauts in space */ = {
+		1DCF5ADC2A5FFF570074EBCB /* AstronautsInSpace */ = {
 			isa = PBXGroup;
 			children = (
+				1D6C4FEF2A66976B0084376C /* Views */,
 				1DCF5AF12A5FFF8E0074EBCB /* ViewControllers */,
+				1D12F4EB2A6573CF00550CF9 /* Services */,
+				1D12F4EC2A6573D900550CF9 /* Models */,
 				1DCF5AF42A5FFFD30074EBCB /* Resources */,
-				1DCF5AF32A5FFFC80074EBCB /* App */,
 				1DCF5AF22A5FFF9B0074EBCB /* Storyboard */,
+				1DCF5AF32A5FFFC80074EBCB /* App */,
 			);
-			path = "Astronauts in space";
+			path = AstronautsInSpace;
 			sourceTree = "<group>";
 		};
 		1DCF5AF12A5FFF8E0074EBCB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				1DCF5AE12A5FFF570074EBCB /* MainViewController.swift */,
+				1DCF5AE12A5FFF570074EBCB /* PeopleInSpaceViewController.swift */,
+				1D6C4FED2A6671CC0084376C /* AstronautsTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -94,7 +130,7 @@
 		1DCF5AF42A5FFFD30074EBCB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1DCF5AE62A5FFF570074EBCB /* Assets.xcassets */,
+				1DE1F9642A66AF220094AB58 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -116,7 +152,7 @@
 			);
 			name = NetworkingHW;
 			productName = NetworkingHW;
-			productReference = 1DCF5ADA2A5FFF570074EBCB /* NetworkingHW.app */;
+			productReference = 1DCF5ADA2A5FFF570074EBCB /* AstronautsInSpace.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -134,7 +170,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1DCF5AD52A5FFF570074EBCB /* Build configuration list for PBXProject "Astronauts in space" */;
+			buildConfigurationList = 1DCF5AD52A5FFF570074EBCB /* Build configuration list for PBXProject "AstronautsInSpace" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -158,7 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DCF5AEA2A5FFF570074EBCB /* LaunchScreen.storyboard in Resources */,
-				1DCF5AE72A5FFF570074EBCB /* Assets.xcassets in Resources */,
+				1DE1F9652A66AF220094AB58 /* Assets.xcassets in Resources */,
 				1DCF5AE52A5FFF570074EBCB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,7 +206,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DCF5AE22A5FFF570074EBCB /* MainViewController.swift in Sources */,
+				1D12F4EE2A6573E800550CF9 /* NetworkManager.swift in Sources */,
+				1D6C4FEE2A6671CC0084376C /* AstronautsTableViewController.swift in Sources */,
+				1DCF5AE22A5FFF570074EBCB /* PeopleInSpaceViewController.swift in Sources */,
+				1D1E5CB92A6574D1002A892B /* Astronaut.swift in Sources */,
+				1D6C4FF12A6697A80084376C /* AstronautsCustomTableView.swift in Sources */,
 				1DCF5ADE2A5FFF570074EBCB /* AppDelegate.swift in Sources */,
 				1DCF5AE02A5FFF570074EBCB /* SceneDelegate.swift in Sources */,
 			);
@@ -321,7 +361,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6YH8FGYJT9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NetworkingHW/App/Info.plist;
+				INFOPLIST_FILE = AstronautsInSpace/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -333,8 +373,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Hi.NetworkingHW;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hi.AstronautsInSpace;
+				PRODUCT_NAME = AstronautsInSpace;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -353,7 +393,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6YH8FGYJT9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NetworkingHW/App/Info.plist;
+				INFOPLIST_FILE = AstronautsInSpace/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -365,8 +405,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Hi.NetworkingHW;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hi.AstronautsInSpace;
+				PRODUCT_NAME = AstronautsInSpace;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -379,7 +419,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DCF5AD52A5FFF570074EBCB /* Build configuration list for PBXProject "Astronauts in space" */ = {
+		1DCF5AD52A5FFF570074EBCB /* Build configuration list for PBXProject "AstronautsInSpace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DCF5AEC2A5FFF570074EBCB /* Debug */,
