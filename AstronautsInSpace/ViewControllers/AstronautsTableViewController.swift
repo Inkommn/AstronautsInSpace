@@ -8,6 +8,7 @@
 import UIKit
 
 final class AstronautsTableViewController: UITableViewController {
+    
     // MARK: - Private properties
     private var astronautsData: AstronautData?
     

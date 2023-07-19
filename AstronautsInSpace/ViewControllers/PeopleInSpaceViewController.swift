@@ -8,6 +8,7 @@
 import UIKit
 
 final class PeopleInSpaceViewController: UIViewController {
+    
     // MARK: - IBOutlets
     @IBOutlet var peopleInSpaceIndicator: UIActivityIndicatorView!
     @IBOutlet var astronautsLabel: UILabel!

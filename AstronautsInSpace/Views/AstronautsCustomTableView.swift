@@ -8,6 +8,7 @@
 import UIKit
 
 final class AstronautsCustomTableView: UITableViewCell {
+    
     // MARK: - IBOutlets
     @IBOutlet var spaceStationLogo: UIImageView!
     @IBOutlet var astronautNameLabel: UILabel!

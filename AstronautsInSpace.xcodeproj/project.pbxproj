@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1D12F4EE2A6573E800550CF9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D12F4ED2A6573E800550CF9 /* NetworkManager.swift */; };
 		1D1E5CB92A6574D1002A892B /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E5CB82A6574D1002A892B /* Astronaut.swift */; };
+		1D67802B2A67FF080048A34C /* NavigatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D67802A2A67FF080048A34C /* NavigatorViewController.swift */; };
 		1D6C4FEE2A6671CC0084376C /* AstronautsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6C4FED2A6671CC0084376C /* AstronautsTableViewController.swift */; };
 		1D6C4FF12A6697A80084376C /* AstronautsCustomTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6C4FF02A6697A80084376C /* AstronautsCustomTableView.swift */; };
 		1DCF5ADE2A5FFF570074EBCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF5ADD2A5FFF570074EBCB /* AppDelegate.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		1D12F4ED2A6573E800550CF9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		1D1E5CB82A6574D1002A892B /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		1D67802A2A67FF080048A34C /* NavigatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorViewController.swift; sourceTree = "<group>"; };
 		1D6C4FED2A6671CC0084376C /* AstronautsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautsTableViewController.swift; sourceTree = "<group>"; };
 		1D6C4FF02A6697A80084376C /* AstronautsCustomTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautsCustomTableView.swift; sourceTree = "<group>"; };
 		1DCF5ADA2A5FFF570074EBCB /* AstronautsInSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstronautsInSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +106,7 @@
 			children = (
 				1DCF5AE12A5FFF570074EBCB /* PeopleInSpaceViewController.swift */,
 				1D6C4FED2A6671CC0084376C /* AstronautsTableViewController.swift */,
+				1D67802A2A67FF080048A34C /* NavigatorViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			files = (
 				1D12F4EE2A6573E800550CF9 /* NetworkManager.swift in Sources */,
 				1D6C4FEE2A6671CC0084376C /* AstronautsTableViewController.swift in Sources */,
+				1D67802B2A67FF080048A34C /* NavigatorViewController.swift in Sources */,
 				1DCF5AE22A5FFF570074EBCB /* PeopleInSpaceViewController.swift in Sources */,
 				1D1E5CB92A6574D1002A892B /* Astronaut.swift in Sources */,
 				1D6C4FF12A6697A80084376C /* AstronautsCustomTableView.swift in Sources */,
