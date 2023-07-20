@@ -22,11 +22,9 @@ final class AstronautsCustomTableView: UITableViewCell {
         case "ISS":
             spaceStationLogo.image = UIImage(named: "ISS")
             astronautCraftLabel.text = "International Space Station"
-        case "Tiangong":
+        default:
             spaceStationLogo.image = UIImage(named: "Tiangong")
             astronautCraftLabel.text = person.craft
-        default:
-            break
         }
     }
 }

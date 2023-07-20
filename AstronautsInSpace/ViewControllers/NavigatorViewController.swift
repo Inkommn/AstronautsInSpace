@@ -8,8 +8,8 @@
 import UIKit
 
 final class NavigatorViewController: UINavigationController {
-
+    
     override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
+        .lightContent
     }
 }
