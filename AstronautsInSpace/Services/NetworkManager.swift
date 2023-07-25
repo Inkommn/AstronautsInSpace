@@ -6,15 +6,10 @@
 //
 
 import Foundation
+import Alamofire
 
 enum Link: String {
     case astronautsDataUrl = "http://api.open-notify.org/astros.json"
-}
-
-enum NetworkError: Error {
-    case noData
-    case invalidUrl
-    case decodingError
 }
 
 final class NetworkManager {
@@ -23,28 +18,22 @@ final class NetworkManager {
     
     private init() {}
     
-    func fetch<T: Decodable>(_ type: T.Type, from url: String, completion: @escaping (Result<T, NetworkError>)-> Void) {
-        guard let url = URL(string: url) else {
-            completion(.failure(.invalidUrl))
-            return
-        }
-        
-        URLSession.shared.dataTask(with: url) { data, _, error in
-            guard let data = data else {
-                completion(.failure(.noData))
-                print(error?.localizedDescription ?? "No error desctiption")
-                return
-            }
-            
-            do {
-                let type = try JSONDecoder().decode(T.self, from: data)
-                DispatchQueue.main.async {
-                    completion(.success(type))
+    func fetchAstronautData(from url: String, completion: @escaping (Result<AstronautData, AFError>) -> Void) {
+        AF.request(url)
+            .validate()
+            .responseJSON { response in
+                switch response.result {
+                case .success(let value):
+                    guard let json = value as? [String: Any] else { return }
+                    
+                    if let astronautData = AstronautData(from: json) {
+                        completion(.success(astronautData))
+                    }
+                case .failure(let error):
+                    completion(.failure(error))
+                    
                 }
-            } catch let error {
-                print(error.localizedDescription)
             }
-        }.resume()
     }
 }
 

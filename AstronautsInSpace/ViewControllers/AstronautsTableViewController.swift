@@ -41,7 +41,7 @@ final class AstronautsTableViewController: UITableViewController {
     // MARK: - API
 extension AstronautsTableViewController {
     private func getAstronautsData() {
-        NetworkManager.shared.fetch(AstronautData.self, from: Link.astronautsDataUrl.rawValue) { [weak self] result in
+        NetworkManager.shared.fetchAstronautData(from: Link.astronautsDataUrl.rawValue) { [weak self] result in
             switch result {
             case .success(let astronautsInfo):
                 self?.astronautsData = astronautsInfo

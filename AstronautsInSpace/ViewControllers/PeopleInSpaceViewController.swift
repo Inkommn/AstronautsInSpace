@@ -22,8 +22,8 @@ final class PeopleInSpaceViewController: UIViewController {
     }
     
     // MARK: - Private methods
-   private func getNumberOfPeopleInSpace() {
-        NetworkManager.shared.fetch(AstronautData.self, from: Link.astronautsDataUrl.rawValue) { [weak self] result in
+    private func getNumberOfPeopleInSpace() {
+        NetworkManager.shared.fetchAstronautData(from: Link.astronautsDataUrl.rawValue) { [weak self] result in
             switch result {
             case .success(let astronautsNumber):
                 self?.astronautsLabel.text = String(astronautsNumber.people.count)
